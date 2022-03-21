@@ -1,0 +1,3 @@
+#include "Resources.h"
+
+FAVICON_ICO RCDATA sKL2.ico
